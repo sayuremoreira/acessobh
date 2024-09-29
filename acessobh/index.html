@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mapeamento de pontos culturais acessíveis para PCDs">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Acesso BH</title>
+</head>
+
+<body>
+
+  <div class="container-um ">
+    <header>
+      <h1>Acesso BH</h1>
+      <input type="text" id="search-input" placeholder="Buscar locais...">
+  </header>
+  </div>
+
+  <div class="container-dois">
+    <section id="filters">
+      <button onclick="filterLocations('teatro')">Teatros</button>
+      <button onclick="filterLocations('museu')">Museus</button>
+      <button onclick="filterLocations('parque')">Parques</button>
+      <button onclick="filterLocations('todos')">Mostrar Todos</button>
+  </section>
+  </div>
+
+  <div class="container-tres">
+    <section id="location-list">
+      <h2>Locais Acessíveis</h2>
+      <ul id="locations">
+          <!-- Lista dinâmica de locais -->
+      </ul>
+  </section>
+  </div>
+
+  <div class="container-quadro">
+    <section id="location-info">
+      <!-- Detalhes sobre o local selecionado -->
+      <h2 id="location-name"></h2>
+      <img id="location-image" src="" alt="Imagem do Local" style="width: 100%; max-width: 400px; display: none;">
+      <p id="location-description"></p>
+
+      <!-- Mapa estático de OpenStreetMap -->
+      <iframe id="location-map" style="border: 0; width: 100%; height: 300px; display: none;"></iframe>
+  </section>
+
+  </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
