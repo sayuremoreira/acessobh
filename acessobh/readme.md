@@ -1,5 +1,5 @@
 
-Funcionalidades do Site Acesso BH
+Funcionalidades do Site Acessa BH
 - Mapeamento de espaços culturais acessíveis: O produto permitirá identificar e listar teatros, museus, cinemas, parques e outros locais com acessibilidade para PCDs.
 
 - Informações detalhadas de acessibilidade: Cada local mapeado apresentará detalhes sobre as condições de acessibilidade, como rampas, banheiros adaptados e sinalização.
